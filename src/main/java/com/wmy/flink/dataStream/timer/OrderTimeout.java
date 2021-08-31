@@ -27,6 +27,21 @@ import java.time.Duration;
  * @Desription: 订单
  * @Version: wmy-version-01
  */
+/**
+ * 测试数据：
+ * 34729,create,,1558430842
+ * 34730,create,,1558430843
+ * 34729,pay,sd76f87d6,1558430844
+ * 34730,modify,3hu3k2432,1558430845
+ * 34731,create,,1558430846
+ * 34731,pay,35jue34we,1558430849
+ * 34732,create,,1558430852
+ * 34733,create,,1558430855
+ * 34734,create,,1558430859
+ * 34734,create,,1558431000
+ * 34733,pay,,1558431000
+ * 34732,pay,,1558449999
+ */
 public class OrderTimeout {
 
     public static OutputTag<OrderResult> orderTimeoutOutputTag = new OutputTag<OrderResult>("orderTimeout") {
